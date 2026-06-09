@@ -1,0 +1,66 @@
+<!-- index.html - Homepage with Democracy Overview and President Cards -->
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demokrasia Tanzania | Nyumbani</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DEMOKRASIA YA TANZANIA</h1>
+            <div class="flag-stripes">
+                <div class="stripe blue"></div>
+                <div class="stripe black"></div>
+                <div class="stripe green"></div>
+                <div class="stripe yellow"></div>
+            </div>
+            <p class="tagline">Kuelewa utawala wa kidemokrasia, Marais wetu, na maendeleo yetu</p>
+            <nav class="main-nav">
+                <a href="index.html" class="active">Nyumbani</a>
+                <a href="#" id="presidentsDropdownBtn" class="dropdown-trigger">Marais ▼</a>
+                <div id="presidentsDropdown" class="dropdown-menu">
+                    <a href="nyerere.html">Julius Nyerere</a>
+                    <a href="mwinyi.html">Ali Hassan Mwinyi</a>
+                    <a href="mkapa.html">Benjamin Mkapa</a>
+                    <a href="kikwete.html">Jakaya Kikwete</a>
+                    <a href="magufuli.html">John Magufuli</a>
+                    <a href="samia.html">Samia Suluhu</a>
+                </div>
+                <a href="#demokrasia">Demokrasia</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Democracy Section -->
+        <section id="demokrasia" class="democracy-section">
+            <h2>🗳️ Demokrasia Inavyojiri Tanzania</h2>
+            <p>Tanzania ni nchi yenye mfumo wa demokrasia ya vyama vingi tangu mwaka 1992. Kabla ya hapo, chama kimoja (CCM na awali TANU) kilikuwa kinatawala. Demokrasia yetu inajikita katika katiba ya nchi, uchaguzi huru na wa haki, ushirikishwaji wa wananchi, na uwajibikaji wa viongozi.</p>
+            <p>Wananchi huchagua Rais, wabunge na madiwani kila baada ya miaka mitano. Mamlaka ya mahakama iko huru, na kuna vyombo vya habari vya kujitegemea. Hata hivyo, changamoto zipo kama vile rushwa na ushawishi wa kiserikali, lakini hatua za kidemokrasia zinaendelea kuboreshwa kwa kushirikisha umma na asasi za kiraia.</p>
+            <div class="demo-principles">
+                <span class="pill">✔ Uchaguzi huru</span>
+                <span class="pill">✔ Katiba ya nchi</span>
+                <span class="pill">✔ Vyama vingi</span>
+                <span class="pill">✔ Haki za binadamu</span>
+                <span class="pill">✔ Uwajibikaji</span>
+                <span class="pill">✔ Umma ndio mamlaka</span>
+            </div>
+            <p><strong>Mfumo wa Rais:</strong> Rais wa Tanzania ndiye Mkuu wa Nchi, Mkuu wa Serikali, na Amiri Jeshi Mkuu. Ana madaraka makubwa lakini anawajibika mbele ya Katiba na wananchi kwa njia ya uchaguzi.</p>
+        </section>
+
+        <!-- Presidents Grid -->
+        <h2 class="section-title">📜 Marais wa Tanzania (Baada ya Azimio la Arusha na Jamhuri)</h2>
+        <div class="presidents-grid" id="presidentsGrid"></div>
+    </main>
+
+    <footer>
+        <p>© 2025 | Kujifunza Demokrasia Tanzania | Tunaheshimu Marais wetu na historia ya kidemokrasia</p>
+        <p>Bonyeza picha ya Rais yeyote kupata maelezo kamili kwenye ukurasa wake maalum</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
